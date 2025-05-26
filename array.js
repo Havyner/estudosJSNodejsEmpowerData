@@ -1,3 +1,4 @@
+/*
 const lista = ['Havyner', 12, 'H', 21]
 console.debug(lista)
 
@@ -50,3 +51,46 @@ lista2.forEach(
 lista2.forEach(item => console.debug('forEach Arrow', item))
 
 console.debug('resultado', lista2.map(item => '>' + item + '<'))
+*/
+
+const lista = ['a', 'b', 'c']
+
+console.debug('filter',
+    lista.filter(
+        function(item){
+            return true
+        }
+    )
+)
+
+console.debug('find',
+    lista.find(
+        function(item){
+            return item == 'a' || item == 'c'
+        }
+    )
+)
+
+console.debug('findIndex',
+    lista.findIndex(
+        function(item){
+            return item == 'a' || item == 'c'
+        }
+    )
+)
+
+// tirando os itens repitidos da lista
+
+const listaRepetidos = [1, 2, 3, 4, 1, 2, 3, 4, 5]
+console.debug('filter',
+    listaRepetidos.filter(
+        function(item1, posicao, listaOriginal){
+            const posicaoNaListaOriginal = listaOriginal.findIndex(
+                function(item2){
+                    return item2 === item1
+                }
+            )
+            return posicao === posicaoNaListaOriginal
+        }
+    )
+)
