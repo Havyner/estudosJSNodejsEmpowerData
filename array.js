@@ -26,3 +26,27 @@ console.log(lista)
 //removendo do começo da lista
 lista.shift()
 console.log(lista)
+
+//determina um array
+// ambos se de typeof, irão apresentar como objeto
+const lista1 = []
+const data = new Date()
+
+console.log(Array.isArray(lista1))
+console.log(Array.isArray(data))
+
+//funções de navegação
+
+const lista2 = ['a', 'b', 'c']
+
+for (const item of lista2) { console.debug('for', item)}
+
+lista2.forEach(
+    function(item){
+        console.debug('forEach', item)
+    }
+)
+
+lista2.forEach(item => console.debug('forEach Arrow', item))
+
+console.debug('resultado', lista2.map(item => '>' + item + '<'))
