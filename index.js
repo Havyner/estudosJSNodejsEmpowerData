@@ -15,6 +15,16 @@ console.info("+------------+")
 console.info("| FLUXOGRAMA |")
 console.info("+------------+")
 
-const A = 5
+let A = 5
 let B = 1
-B = A * B
+
+do {
+    B = A * B
+
+    if (A > 1){
+        A = A - 1
+    } else {
+        console.info(B)
+        break
+    }
+} while(true)
