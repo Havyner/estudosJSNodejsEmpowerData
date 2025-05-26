@@ -17,8 +17,9 @@ se não: Imprima o valor de B
  * @returns somatório entre os 2 números
  */
 
-function soma(num1, num2){
-    return  num1 + num2
-}
+console.info("+------------+")
+console.info("| FLUXOGRAMA |")
+console.info("+------------+")
 
-soma(5,6)
+const A = 5
+const B = 1
