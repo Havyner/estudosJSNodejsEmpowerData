@@ -36,3 +36,14 @@ console.log(resultadorest)
 let resultadoexpo = numero1 ** numero2
 
 console.log(resultadoexpo)
+
+/*
+==  igualdade
+=== igualdade de valor e tipo
+!=  desigualdade/diferente
+!== desigualdade de valor e tipo
+<   menor que
+>   maior que
+<=  menor ou igual
+>=  maior ou igual
+*/
