@@ -47,3 +47,12 @@ console.log(resultadoexpo)
 <=  menor ou igual
 >=  maior ou igual
 */
+
+/*
+Operadores Logicos
+
+ou              =   or  =   ||  -> pelo menos 1 tem que ser vdd
+e               =   and =   &&  -> os 2 tem que ser vdd
+ou exclusivo    =   xor =   ^   -> os 2 precisam ser diferentes
+negar           =   not =   !   -> invertem os numeros
+*/
