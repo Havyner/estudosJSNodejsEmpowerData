@@ -22,4 +22,5 @@ console.info("| FLUXOGRAMA |")
 console.info("+------------+")
 
 const A = 5
-const B = 1
+let B = 1
+B = A * B
