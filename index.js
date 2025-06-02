@@ -10,6 +10,7 @@ se não: Imprima o valor de B
 
 // Comentário de js em documentação /** */
 
+console.info("TESTE")
 
 console.info("+------------+")
 console.info("| FLUXOGRAMA |")
