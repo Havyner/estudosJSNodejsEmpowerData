@@ -5,7 +5,7 @@ function soma (a, b){
     console.log(resultado)
 }
 
-soma(1,2)
+soma(1,4)
 
 // arrow function =>
 
