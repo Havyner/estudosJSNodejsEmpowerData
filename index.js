@@ -1,4 +1,4 @@
-/*
+/* 25/11/2025 retorno ao estudo de jS
 Início
 Faça A valer 5
 Faça B valer 1
