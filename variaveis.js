@@ -5,7 +5,7 @@
 minha_variavel = "Havyner Siqueira"
 console.debug(typeof minha_variavel) //tipo da variável
 valor = 101
-cond = true
+cond = false
 
 //declaração explicita
 var minha_variavel = "Havyner Siqueira" //se apertar f2, consegue trocar o nome todos as variável dele
