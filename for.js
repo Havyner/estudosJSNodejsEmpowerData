@@ -6,8 +6,8 @@ for (let i = 0; i <= 10; i = i + 1) {
 
 const lista = [1,2,3,4,5]
 
-for (const listanum of lista){ //passa um elemento de lista e ele pega cada elemento e coloca dentro da variável
-    console.log(listanum)
+for (const item of lista){ //passa um elemento de lista e ele pega cada elemento e coloca dentro da variável
+    console.log(item)
 }
 
 
